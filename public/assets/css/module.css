@@ -1,0 +1,180 @@
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.image.avatar48 {
+    width: 48px;
+    height: 48px;
+    background: #f00;
+}
+
+    .image.avatar48 img {
+        width: 48px;
+        height: 48px;
+    }
+
+.image.fit {
+    display: block;
+    width: 100%;
+}
+
+.image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+    .image.centered img {
+        margin: 0 auto;
+        width: auto;
+    }
+    .item header {
+        background: #fff;
+        margin: 0;
+        padding: 1em 0 1em 0;
+        font-size: 0.8em;
+    }
+
+        .item header h3 {
+            font-size: 1em;
+        }
+        #logo h1 {
+			position: relative;
+			color: rgb(17, 16, 16);
+			font-weight: 600;
+			font-size: 1em;
+			line-height: 1em;
+		}
+
+		#logo p {
+			position: relative;
+			display: block;
+			font-size: 0.6em;
+			color: rgba(12, 11, 11, 0.5);
+			line-height: 1.25em;
+			margin: 0.5em 0 0 0;
+		}
+
+		#logo .image {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+	#nav ul {
+		list-style: none;
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+
+		#nav ul li {
+			padding-left: 0;
+		}
+
+			#nav ul li a {
+				display: block;
+				padding: 0.5em 1.5em 0.5em 1.5em;
+				color: rgba(8, 8, 8, 0.5);
+				text-decoration: none;
+				outline: 0;
+				border: 0;
+				-moz-transition: none;
+				-webkit-transition: none;
+				-ms-transition: none;
+				transition: none;
+			}
+
+				#nav ul li a span {
+					position: relative;
+					display: block;
+					font-size: 0.8em;
+				}
+
+					#nav ul li a span:before {
+						position: absolute;
+						left: 0;
+						color: #41484c;
+						text-align: center;
+						width: 1.25em;
+						line-height: 1.75em;
+					}
+
+				#nav ul li a.active {
+					background: rgba(0, 0, 0, 0.15);
+					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+					color: #fff;
+				}
+
+					#nav ul li a.active span:before {
+						color: #e27689;
+					}
+
+                    #main > section {
+                        margin: 0;
+                        overflow: hidden;
+                        padding: 4em 0;
+                        box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+                        text-align: center;
+                        background-image: url("images/overlay.png");
+                    }
+            
+                        #main > section.dark {
+                            color: #ddd;
+                            color: rgba(255, 255, 255, 0.75);
+                        }
+            
+                            #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+                                color: inherit;
+                            }
+            
+                            #main > section.dark strong {
+                                color: #fff;
+                                border-color: inherit;
+                            }
+            
+                            #main > section.dark a {
+                                color: #fff;
+                                border-color: inherit;
+                            }
+            
+                                #main > section.dark a:hover {
+                                    border-bottom-color: rgba(255, 255, 255, 0);
+                                }
+            
+                        #main > section.cover {
+                            padding: 10em 0;
+                            background-size: cover;
+                            background-position: center center;
+                        }
+            
+                        #main > section.one {
+                            background-color: #2c8888;
+                            background-image: url("../../images/codevideo.gif");
+                        }
+            
+                        #main > section.two {
+                            background-color: #f5fafa;
+                        }
+            
+                        #main > section.three {
+                            background-color: #ecf1f1;
+                        }
+            
+                        #main > section.four {
+                            background-color: #e8edec;
+                        }
+                        #main #top header{
+                            color: white;
+                        }
+            
